@@ -1,0 +1,9 @@
+D:\Project\PD04_CodeReview_2025\Source\GameModels\obj\Debug\GameModels.csproj.AssemblyReference.cache
+D:\Project\PD04_CodeReview_2025\Source\GameModels\obj\Debug\GameModels.csproj.CoreCompileInputs.cache
+D:\Project\PD04_CodeReview_2025\Source\GameModels\bin\Debug\GameModels.dll
+D:\Project\PD04_CodeReview_2025\Source\GameModels\bin\Debug\GameModels.pdb
+D:\Project\PD04_CodeReview_2025\Source\GameModels\bin\Debug\Abstract.dll
+D:\Project\PD04_CodeReview_2025\Source\GameModels\bin\Debug\Abstract.pdb
+D:\Project\PD04_CodeReview_2025\Source\GameModels\obj\Debug\GameModels.csproj.Up2Date
+D:\Project\PD04_CodeReview_2025\Source\GameModels\obj\Debug\GameModels.dll
+D:\Project\PD04_CodeReview_2025\Source\GameModels\obj\Debug\GameModels.pdb
