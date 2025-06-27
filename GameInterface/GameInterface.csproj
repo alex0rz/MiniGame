@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CCA2E1F9-07C3-4363-B89A-4DC5E59F223A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GameInterface</RootNamespace>
+    <AssemblyName>GameInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>Properties</CustomToolNamespace>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_3_farmer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_3_Architect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Architect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soldier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_3_Soldier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Battlefield_BackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Optimized_Battlefield_BackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fixed_Medieval_Village.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hope_vs_Despair_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Abstract\Abstract.csproj">
+      <Project>{9853280F-FCDE-4F14-A4AA-CE289FA20AB6}</Project>
+      <Name>Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameLogic\GameLogic.csproj">
+      <Project>{0aaedad8-1b03-4b9a-bce1-32f5fcdf31b9}</Project>
+      <Name>GameLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food_Thief_Villain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Building_Destroyer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relic_Bearer_Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hope_vs_Despair_Background_BW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Top_Info_Panel_Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left_Info_Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right_Info_Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheat_Farmer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rice_Farmer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheat_Farmer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rice_Farmer1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

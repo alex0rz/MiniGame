@@ -1,0 +1,11 @@
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.GameForm.resources
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.Properties.Resources.resources
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.csproj.GenerateResource.cache
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.csproj.CoreCompileInputs.cache
+D:\Project\PD04_CodeReview_2025\Source\Bin\GameInterface.exe.config
+D:\Project\PD04_CodeReview_2025\Source\Bin\GameInterface.exe
+D:\Project\PD04_CodeReview_2025\Source\Bin\GameInterface.pdb
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.exe
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.pdb
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.csprojAssemblyReference.cache
+D:\Project\PD04_CodeReview_2025\Source\GameInterface\obj\Debug\GameInterface.csproj.CopyComplete
